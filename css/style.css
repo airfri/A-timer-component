@@ -1,0 +1,33 @@
+body {
+    background-color: #dddd;
+    margin: 24px;
+}
+.timer {
+    display: inline-block;
+    /* height: 200px;
+    width: 400px; */
+    /* text-align: center; */
+    padding: 24px 32px;
+    border-radius: 30px;
+    background-color: white;
+}
+.timer_part {
+    font-size: 36px;
+    font-weight: bold;
+}
+.timer_btn {
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.timer_btn-start{
+    background-color: green;
+}
+.timer_btn-stop{
+    background-color: #ff0256;
+}
